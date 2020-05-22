@@ -6,6 +6,7 @@ import OpenDrawerIcon from '../components/OpenDrawerIcon';
 import styled from 'styled-components';
 import {getNotes} from '../services/NoteService';
 import NoteItem from '../components/NoteItem';
+import SearchIcon from '../components/SearchIcon';
 
 const ViewContainerList = styled(View)`
   display: flex;
@@ -19,6 +20,7 @@ export default ({navigation}) => {
   navigation.setOptions({
     title: 'Notas',
     headerLeft: () => <OpenDrawerIcon />,
+    headerRight: () => <SearchIcon />,
   });
 
   const goToCreateNoteScreen = () => {
