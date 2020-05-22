@@ -17,7 +17,6 @@ export default () => (
   </Drawer.Navigator>
 );
 
-
 export const CustomDrawerComp = (props) => {
   const {
     navigation: {navigate},
@@ -32,14 +31,14 @@ export const CustomDrawerComp = (props) => {
           onPress={() => navigate(routes.HOME_SCREEN)}
         />
         <DrawerItem
-          label="Nova nota"
-          hasBottomDivider
-          onPress={() => navigate(routes.CREATE_NEW_NOTE_SCREEN)}
-        />
-        <DrawerItem
           label="Todas as notas"
           hasBottomDivider
           onPress={() => navigate(routes.LIST_ALL_NOTES_SCREEN)}
+        />
+        <DrawerItem
+          label="Nova nota"
+          hasBottomDivider
+          onPress={() => navigate(routes.CREATE_NEW_NOTE_SCREEN)}
         />
       </View>
       <View style={{flexGrow: 2}}>
