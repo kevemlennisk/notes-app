@@ -40,6 +40,11 @@ export const CustomDrawerComp = (props) => {
           hasBottomDivider
           onPress={() => navigate(routes.CREATE_NEW_NOTE_SCREEN)}
         />
+        <DrawerItem
+          label="Notificações"
+          hasBottomDivider
+          onPress={() => navigate(routes.NOTIFICATIONS)}
+        />
       </View>
       <View style={{flexGrow: 2}}>
         <InvertThemeOption />
