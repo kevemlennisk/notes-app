@@ -53,7 +53,7 @@ export default ({navigation}) => {
     <ViewContainerList>
       <FlatList
         data={notes}
-        numColumns={3}
+        numColumns={2}
         renderItem={({item}) => <NoteItem value={item} />}
         keyExtractor={(item) => item._id}
         onEndReached={loadNotes}
