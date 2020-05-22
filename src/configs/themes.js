@@ -1,7 +1,7 @@
 export default {
   light: {
     background: '#fff',
-    backgroundList: '#3b7a9f',
+    backgroundList: '#607d8b',
     buttons: {
       primaryBackground: '#337ab7',
       primaryTextColor: '#fff',
@@ -10,7 +10,7 @@ export default {
       borderColor: '#000000',
     },
     stackHeader: {
-      headerStyle: {backgroundColor: '#337ab7'},
+      headerStyle: {backgroundColor: '#FF900B'},
       headerTitleStyle: {color: '#fff'},
       headerBackTitleStyle: {color: '#fff'},
     },
