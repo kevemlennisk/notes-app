@@ -35,11 +35,11 @@ export const CustomDrawerComp = (props) => {
           hasBottomDivider
           onPress={() => navigate(routes.LIST_ALL_NOTES_SCREEN)}
         />
-        {/*<DrawerItem
+        <DrawerItem
           label="Nova nota"
           hasBottomDivider
           onPress={() => navigate(routes.CREATE_NEW_NOTE_SCREEN)}
-        />*/}
+        />
         <DrawerItem
           label="Notificações"
           hasBottomDivider
